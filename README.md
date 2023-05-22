@@ -1,7 +1,8 @@
 # ProyectoFinalMotylicki
 
 ## Proyecto de Carrito de Compras
-Este proyecto es un ejemplo de un carrito de compras implementado en JavaScript. Permite a los usuarios agregar productos al carrito, ver el contenido del carrito, realizar compras y vaciar el carrito. 
+Este proyecto es un ejemplo de un carrito de compras implementado en la pagina que desarrolle durante el curso de desarrollo web. Permite a los usuarios agregar productos al carrito, ver el contenido del carrito, realizar compras y vaciar el carrito. 
+
 
 ### Funcionalidades
 El carrito de compras ofrece las siguientes funcionalidades:
