@@ -1,0 +1,87 @@
+/* MEDIA QUERIES */
+
+/*BARRA DE NAVEGACION*/
+
+@media (max-width: 991px) {
+	.botonNavChico {
+		display: block;
+		text-align: center;
+		padding: 0.4rem;
+		border-bottom: #ffffff 2px solid;
+
+		&:hover {
+			background-color: $hover;
+			transition: all 0.5s;
+		}
+	}
+
+	nav {
+		li {
+			a {
+				color: $blanco;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.botonNav {
+		background-color: $principal;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+
+		&:hover {
+			background-color: $hover;
+			transition: all 0.5s;
+		}
+	}
+}
+
+@media (max-width: 390px) {
+	.tituloNav {
+		font-size: 1.9rem;
+	}
+
+	.headerWhatsapp {
+		a {
+			font-size: 1rem;
+		}
+	}
+}
+
+
+/*GATOS.HTML -- PERROS-HTML */
+
+
+@media (max-width: 915px) {
+	.iconosparrafo {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 692px) {
+	.iconos {
+		padding-right: 0;
+	}
+
+	.contenedorPromociones {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 510px) {
+	.promociones {
+		display: block;
+	}
+
+	.contenedorPromociones {
+		display: flex;
+		flex-direction: row;
+		border-bottom: #747373 0.1rem solid;
+	}
+
+	.iconos {
+		padding-right: 1rem;
+	}
+}

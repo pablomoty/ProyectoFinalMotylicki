@@ -1,0 +1,31 @@
+/*INICIO.HTML*/
+
+.divInicio1 {
+	background-color: $principal;
+}
+
+.divInicio2 {
+	background-color: $secundario;
+}
+
+.h2inicio1 {
+	padding: 0.2rem;
+	color: $blanco;
+}
+
+.h2inicio2 {
+	padding: 0.2rem;
+	color: $principal;
+}
+
+.carrusel {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.opacidad {
+	&:hover {
+		opacity: 70%;
+	}
+}

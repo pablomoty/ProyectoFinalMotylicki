@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "imagen": "img/inicio/mv1.webp",
+        "titulo": "Pro Plan Cachorro Grande",
+        "cantidad": 1,
+        "precio": 15823
+    },
+    {
+        "id": 2,
+        "imagen": "img/inicio/mv2.webp",
+        "titulo": "Excellent Smart Gato Adulto",
+        "cantidad": 1,
+        "precio": 15823
+    },
+    {
+        "id": 3,
+        "imagen": "img/inicio/mv3.webp",
+        "titulo": "Arena Aglom. Sanicat Strong",
+        "cantidad": 1,
+        "precio": 1942
+    },
+    {
+        "id": 4,
+        "imagen": "img/inicio/mv4.webp",
+        "titulo": "Excellent Adulto Mediano",
+        "cantidad": 1,
+        "precio": 11381
+    },
+    {
+        "id": 5,
+        "imagen": "img/inicio/mv5.webp",
+        "titulo": "Royal Canin Performance",
+        "cantidad": 1,
+        "precio": 10745
+    },
+    {
+        "id": 6,
+        "imagen": "img/inicio/mv6.webp",
+        "titulo": "Pedigree Cachorro 3Kg",
+        "cantidad": 1,
+        "precio": 9368
+    },
+    {
+        "id": 7,
+        "imagen": "img/inicio/promo1.webp",
+        "titulo": "Old Prince Performance X 12Kg",
+        "cantidad": 1,
+        "precio": 13584
+    },
+    {
+        "id": 8,
+        "imagen": "img/inicio/promo2.webp",
+        "titulo": "Pro Plan Sensitive x 12Kg",
+        "cantidad": 1,
+        "precio": 15985
+    },
+    {
+        "id": 9,
+        "imagen": "img/inicio/promo3.png",
+        "titulo": "Whole Earth Perro Adulto X 12Kg",
+        "cantidad": 1,
+        "precio": 13077
+    },
+    {
+        "id": 10,
+        "imagen": "img/inicio/promo4.webp",
+        "titulo": "Pro Plan Adulto Mediano",
+        "cantidad": 1,
+        "precio": 11852
+    },
+    {
+        "id": 11,
+        "imagen": "img/inicio/promo5.webp",
+        "titulo": "Old Prince Gatos Adultos",
+        "cantidad": 1,
+        "precio": 14145
+    },
+    {
+        "id": 12,
+        "imagen": "img/inicio/promo6.webp",
+        "titulo": "Whiskas Sabor Salmon X 10 Kg",
+        "cantidad": 1,
+        "precio": 10528
+    },
+    {
+        "id": 13,
+        "imagen": "img/inicio/destacado1.webp",
+        "titulo": "Purina Dentalife Perros X 42gr",
+        "cantidad": 1,
+        "precio": 324
+      },
+      {
+        "id": 14,
+        "imagen": "img/inicio/destacado2.webp",
+        "titulo": "Homemade Delights Gatos Adultos",
+        "cantidad": 1,
+        "precio": 567
+      },
+      {
+        "id": 15,
+        "imagen": "img/inicio/destacado3.webp",
+        "titulo": "Bocaditos Golocan Chocolate",
+        "cantidad": 1,
+        "precio": 1367
+      },
+      {
+        "id": 16,
+        "imagen": "img/inicio/destacado4.webp",
+        "titulo": "Eukanuba Maint Perro Adulto",
+        "cantidad": 1,
+        "precio": 11370
+      },
+      {
+        "id": 17,
+        "imagen": "img/inicio/destacado5.webp",
+        "titulo": "Royal Canin Gato Fit",
+        "cantidad": 1,
+        "precio": 10528
+      },
+      {
+        "id": 18,
+        "imagen": "img/inicio/destacado6.webp",
+        "titulo": "Iams Gato Adulto Light",
+        "cantidad": 1,
+        "precio": 6042
+      }
+]

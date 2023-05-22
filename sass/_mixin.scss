@@ -1,0 +1,7 @@
+// MIXIN AGREGADO A LAS ANCLAS DEL NAV Y DEL FOOTER //
+
+@mixin anclas {
+    text-decoration: none;
+    color: $blanco;
+    font-size: 18px;
+}

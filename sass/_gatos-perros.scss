@@ -1,0 +1,59 @@
+/* GATOS.HTML -- PERROS.HTML */
+
+.h2main {
+	text-align: center;
+	font-size: 50px;
+	margin: 10px 0 10px 0;
+}
+
+.main {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.parrafo {
+	color: $negro;
+	text-align: center;
+	padding: 10px 30px 10px 30px;
+}
+
+.imagenesmain {
+	margin: 0, auto;
+	width: auto;
+	height: auto;
+}
+
+.pattern {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+}
+
+.promociones {
+	background-color: $blanco;
+	border: #187053 2px solid;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0.5rem;
+}
+
+.contenedorPromociones {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 3rem 0 0;
+}
+
+.iconos {
+	font-size: 2rem;
+	color: $negro;
+	padding-right: 1rem;
+}
+
+.iconosparrafo {
+	font-size: 1.5rem;
+	color: $negro;
+	margin: 0;
+}

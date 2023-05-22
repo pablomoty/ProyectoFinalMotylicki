@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description -->
+    <meta name="description"
+        content="Encontrá en Barriguetas Pet Shop los mejores productos y servicios para tus mascotas. ¡Compra alimentos, accesorios y más en nuestra tienda online!">
+    <!-- Favicon -->
+    <link rel="shortcut icon"
+        href="https://w7.pngwing.com/pngs/35/114/png-transparent-dog-cat-paw-decal-paw-print-animals-pet-paw-thumbnail.png"
+        type="image/x-icon">
+    <title>Barriguetas Pet Shop</title>
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.css">
+    <!-- SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.css">
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- BootStrap Iconos  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  Mi CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header id="header">
+
+
+        <div class="headerWhatsapp">
+            <div class="d-flex justify-content-center">
+                <i class="bi bi-whatsapp" alt="logo whatsapp"></i>
+                <a class="ps-2 mb-0 fuenteAlternativa" href="https://web.whatsapp.com" target="_blank">Contactanos de
+                    9hs a 18hs
+                    11-1234-5678 </a>
+            </div>
+
+        </div>
+
+        <nav class="navbar navbar-expand-lg navColor">
+            <div class="container-fluid">
+                <a data-aos="fade-right" class="tituloNav" href="index.html">
+                    <h1>Barriguetas Pet Shop</h1>
+                </a>
+
+            </div>
+
+            <button type="button" class="btn boton-carr" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="d-flex bi bi-cart mx-5 fs-4 iconito"></i>
+            </button>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-2 text-center" id="exampleModalLabel">Tu Pedido</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="contenedor">
+
+                            </div>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <div class="precio-total d-flex justify-content-center">
+
+
+                            </div>
+                            <div class="d-flex justify-content-end ">
+                                <button type="button" class="btn btn-danger vaciar-carrito mx-2">Vaciar Carrito</button>
+
+                                <button type="button" class="btn btn-success finalizar-compra">Finalizar Compra</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+
+
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/inicio/carrusel inicio/carrusel1.png" class="d-block carrusel"
+                            alt="Promocion bolsa de alimentos Royal Canin para cachorros que incluyen regalos sorpresa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/inicio/carrusel inicio/carrusel2.png" class="d-block carrusel"
+                            alt="Promociones llevando 3x2 y 6x5 en alimentos humedos para perros y gatos">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/inicio/carrusel inicio/carrusel3.png" class="d-block carrusel"
+                            alt="Promocion bolsa de alimentos Purina Excellent para perros que incluye 3 kilos gratis y regalos sorpresa">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+
+
+        <section>
+
+            <div class="divInicio1">
+                <h2 class="h2inicio1 text-center">OFERTAS DEL MES</h2>
+            </div>
+
+            <div class="row d-flex justify-content-center container-fluid text-center div-productos">
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer id="footer">
+
+        <ul>
+            <li><a class="botonFooter" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a class="botonFooter" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a class="botonFooter" href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a class="botonFooter" href="#header">VOLVER ARRIBA</a></li>
+        </ul>
+
+        <p class="textoFooter">Sitio Web creado por Pablo Motylicki</p>
+        <p class="textoFooter">2023 Todos los derechos reservados</p>
+
+    </footer>
+
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Toastify JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.js"></script>
+    <!-- BootStrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- SweetAlert JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.js"></script>
+    <!-- Mi JS -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

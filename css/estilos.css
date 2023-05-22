@@ -1,0 +1,303 @@
+/*FUENTES*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Catamaran&family=Varela+Round&display=swap");
+/*BASE*/
+body {
+  font-size: 62.5%;
+  font-family: "Bubblegum Sans", cursive;
+  background-color: #e8e9e8;
+}
+
+.fuenteAlternativa {
+  font-family: "Catamaran", sans-serif;
+}
+
+.body2 {
+  background-color: #ffffff;
+}
+
+/*WHATSAPP*/
+.headerWhatsapp {
+  background-color: #25d366;
+}
+.headerWhatsapp i {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/*BARRA DE NAVEGACION*/
+.navColor {
+  background-color: #187053;
+}
+
+.botonNavColor {
+  background-color: #ffffff;
+}
+
+.tituloNav {
+  color: #ffffff;
+  font-size: 2.3rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.modal-contenedor{
+  display:flex;
+  align-items: center;
+  gap: 2rem;
+}
+.img-carrito{
+  width:200px;
+  padding:20px;
+}
+
+/*INICIO.HTML*/
+.divInicio1 {
+  background-color: #187053;
+}
+
+.divInicio2 {
+  background-color: #e6b350;
+}
+
+.h2inicio1 {
+  padding: 0.2rem;
+  color: #ffffff;
+}
+
+.h2inicio2 {
+  padding: 0.2rem;
+  color: #187053;
+}
+
+.carrusel {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.opacidad:hover {
+  opacity: 70%;
+}
+
+.boton-carr {
+  padding-left: 5px;
+  background-color:  #187053;
+  color: #ffffff;
+  
+}
+
+.boton-carr:hover{
+  background-color: #21946e;
+}
+.con-productos {
+  background-color: #21946e; 
+  color: #ffffff; 
+}
+
+
+
+.boton-carr:hover {
+  color: #ffffff;
+}
+/* FOOTER */
+footer {
+  background-color: #187053;
+  text-align: center;
+  padding-bottom: 10px;
+}
+footer ul li {
+  display: inline-block;
+  margin: 20px;
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.textoFooter {
+  color: #e6b350;
+}
+
+.botonFooter {
+  background-color: #187053;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.botonFooter:hover {
+  background-color: #1a8863;
+  transition: all 0.5s;
+}
+
+/* SERVICIOS.HTML*/
+.seccion {
+  background-color: #ffffff;
+  margin-top: 1rem;
+  border: 0.1rem black solid;
+}
+
+.imagenServicios {
+  padding: 1rem;
+}
+
+/* GATOS.HTML -- PERROS.HTML */
+.h2main {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px 0 10px 0;
+}
+
+.main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.parrafo {
+  color: #000000;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+}
+
+.imagenesmain {
+  margin: 0, auto;
+  width: auto;
+  height: auto;
+}
+
+.pattern {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.promociones {
+  background-color: #ffffff;
+  border: #187053 2px solid;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.contenedorPromociones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3rem 0 0;
+}
+
+.iconos {
+  font-size: 2rem;
+  color: #000000;
+  padding-right: 1rem;
+}
+
+.iconosparrafo {
+  font-size: 1.5rem;
+  color: #000000;
+  margin: 0;
+}
+
+/*NOSOTROS.HTML*/
+.form {
+  display: inline-block;
+  border: #000000 0.1rem solid;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.margenes {
+  border: #000000 0.1rem solid;
+  background-color: #ffffff;
+}
+
+.margenesIframe {
+  padding: 1rem;
+}
+
+/* MEDIA QUERIES */
+/*BARRA DE NAVEGACION*/
+@media (max-width: 991px) {
+  .botonNavChico {
+    display: block;
+    text-align: center;
+    padding: 0.4rem;
+    border-bottom: #ffffff 2px solid;
+  }
+  .botonNavChico:hover {
+    background-color: #1a8863;
+    transition: all 0.5s;
+  }
+  nav li a {
+    color: #ffffff;
+  }
+}
+@media (min-width: 992px) {
+  .botonNav {
+    background-color: #187053;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .botonNav:hover {
+    background-color: #1a8863;
+    transition: all 0.5s;
+  }
+}
+@media (max-width: 390px) {
+  .tituloNav {
+    font-size: 1.9rem;
+  }
+  .headerWhatsapp a {
+    font-size: 1rem;
+  }
+}
+/*GATOS.HTML -- PERROS-HTML */
+@media (max-width: 915px) {
+  .iconosparrafo {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 692px) {
+  .iconos {
+    padding-right: 0;
+  }
+  .contenedorPromociones {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 510px) {
+  .promociones {
+    display: block;
+  }
+  .contenedorPromociones {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #747373 0.1rem solid;
+  }
+  .iconos {
+    padding-right: 1rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
